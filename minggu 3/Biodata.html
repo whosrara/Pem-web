@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="../bootstrap-core/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../loader.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        body{
+            margin-top:20px;
+        }
+        .form-title{
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+    
+    </style> 
+    <title>Form PPDF</title>
+  </head>
+  <body style="background-color: #F3F1EC;font-family: 'Open Sans';">
+    <!-- <div class="preloader">
+        <div class="loader">
+            <div class="loader-outter"></div>
+            <div class="loader-inner"></div>
+    
+            <div class="indicator"> 
+                <svg width="16px" height="12px">
+                    <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                </svg>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container" style="padding:15;min-height: 700px;">
+        <center>
+            <b>
+            <h3 style="font-weight: bold;">FORMULIR PPDB JALUR ZONASI TAHUN 2021</h3>
+            </b>
+        </center>
+        <br>
+        <form class="row g-3">
+            <h5 class="form-title">Info Pendaftaran</h5>
+            <div class="col-md-6">
+                <label for="nisn" class="form-label">NISN</label>
+                <input type="text" class="form-control" id="nisn">
+            </div>
+            <div class="col-md-6">
+                <label for="tahun_lulus" class="form-label">Tahun Lulus</label>
+                <input type="text" class="form-control" id="tahun_lulus">
+            </div>
+            <div class="col-md-12">
+                <label for="asal_sekolah" class="form-label">Asal Sekolah</label>
+                <input type="text" class="form-control" id="asal_sekolah">
+            </div>
+
+            <h5 class="form-title">Data Calon Peserta</h5>
+            <div class="col-md-12">
+                <label for="nama_lengkap" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama_lengkap">
+            </div>
+            <div class="col-md-3">
+                <label for="nik" class="form-label">NIK</label>
+                <input type="text" class="form-control" id="nik">
+            </div>
+            <div class="col-md-3">
+                <label for="nisn" class="form-label">Jenis Kelamin</label>
+                <select class="form-control" name="nisn" id="nisn">
+                    <option value="Pilih Opsi" selected>Pilih Opsi</option>
+                    <option value="Laki-Laki">Laki Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="tempat_lahir" class="form-label">Tempat Lahir</label>
+                <input type="text" class="form-control" id="tempat_lahir">
+            </div>
+            <div class="col-md-3">
+                <label for="tanggal_lahir" class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="tanggal_lahir">
+            </div>
+            <div class="col-md-12 mt-0">
+                <small class="text-danger">* Foto Copy Akte Kelahiran Yang Telah Dilegalisir (Di Lampirkan)</small>
+            </div>
+            <div class="col-md-12">
+                <label for="email" class="form-label">Email Aktif</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="col-md-3">
+                <label for="desa" class="form-label">Desa/Kel.</label>
+                <input type="text" class="form-control" id="desa">
+            </div>
+            <div class="col-md-3">
+                <label for="kecamatan" class="form-label">Kecamatan</label>
+                <input type="text" class="form-control" id="kecamatan">
+            </div>
+            <div class="col-md-3">
+                <label for="kabupaten" class="form-label">Kabupaten</label>
+                <input type="text" class="form-control" id="kabupaten">
+            </div>
+            <div class="col-md-3">
+                <label for="provinsi" class="form-label">Provinsi</label>
+                <input type="text" class="form-control" id="provinsi">
+            </div>
+            <div class="col-md-12">
+                <label for="alamat" class="form-label">Alamat</label>
+                <textarea name="alamat" id="alamat" class="form-control" rows="3"></textarea>
+            </div>
+
+            <h5 class="form-title">DATA ORANG TUA</h5>
+            <div class="col-md-12">
+                <label for="no_kk" class="form-label">Nomor KK</label>
+                <input type="text" class="form-control" id="no_kk">
+            </div>
+            <div class="col-md-6">
+                <label for="nama_ayah" class="form-label">Nama Ayah Kandung</label>
+                <input type="text" class="form-control" id="nama_ayah">
+            </div>
+            <div class="col-md-6">
+                <label for="agama" class="form-label">Agama</label>
+                <select class="form-control" name="agama" id="agama">
+                    <option value="Pilih Opsi" selected>Pilih Opsi</option>
+                    <option value="Islam">Islam</option>
+                </select>
+                <small class="text-danger">* hanya menerima islam doang</small>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+      
+      
+    </body>
+    </html>
