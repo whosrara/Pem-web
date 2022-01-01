@@ -1,0 +1,50 @@
+[
+    {
+        "nim":"A11.2021.13251",
+        "nama":"Mutiara Syabilla",
+        "alamat":"Jepara",
+        "jurusan":"Teknik Informatika",
+        "MK":[
+            {
+                "mk_kode":"301", 
+                "nama_mk":"KALKULUS" 
+            }, 
+            {   "mk_kode":"302", 
+                "nama_mk":"KOMPUTASI" 
+            }, 
+            {   "mk_kode":"303", 
+                "nama_mk":"PEMWEB" 
+            }, 
+            {   "mk_kode":"304",
+                "nama_mk":"MATDISK" 
+            },
+            {   "mk_kode":"305", 
+                "nama_mk":"PEMROGRAMAN"
+            }
+        ]
+    },
+    {
+        "nim":"A11.2021.12345",
+        "nama":"Mira Rahmawati",
+        "alamat":"Semarang",
+        "jurusan":"Teknik Informatika",
+        "MK":[
+            {
+                "mk_kode":"301", 
+                "nama_mk":"KALKULUS" 
+            }, 
+            {   "mk_kode":"302", 
+                "nama_mk":"KOMPUTASI" 
+            }, 
+            {   "mk_kode":"303", 
+                "nama_mk":"PEMWEB" 
+            }, 
+            {   "mk_kode":"304",
+                "nama_mk":"MATDISK" 
+            },
+            {   "mk_kode":"305", 
+                "nama_mk":"PEMROGRAMAN"
+            }
+        ]
+    }
+]
